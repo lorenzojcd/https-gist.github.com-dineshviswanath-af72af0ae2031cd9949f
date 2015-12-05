@@ -37,9 +37,9 @@ mkdir ~/project
 
 Now we will create a virtualenv
 ```shell
- virtualenv hello_flask
-    cd hello_flask
-    ```
+virtualenv hello_flask
+cd hello_flask
+```
 
 If you list the contents of the hello_flask directory, you will see that it has created several sub-directories, including a bin folder (Scripts on Windows) that contains copies of both Python and pip. The next step is to activate your new virtualenv.
 ```shell

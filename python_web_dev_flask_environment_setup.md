@@ -34,8 +34,9 @@ Now lets create the first flask app
     cd ~/projets
 
 Now we will create a ```virtualenv```. 
-    ```virtualenv hello_flask```
-    ```cd hello_flask```
+    ```shell
+    virtualenv hello_flask
+    cd hello_flask```
 
 If you list the contents of the hello_flask directory, you will see that it has created several sub-directories, including a bin folder (Scripts on Windows) that contains copies of both Python and pip. The next step is to activate your new virtualenv.
         source bin/activate

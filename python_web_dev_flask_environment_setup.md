@@ -30,7 +30,7 @@ Why use virtualenv?
     13.1.2
 
 Now lets create the first flask app
-    mkdir ~/projects
+    mkdir ~/project
     cd ~/projets
 
 Now we will create a ```virtualenv```. 

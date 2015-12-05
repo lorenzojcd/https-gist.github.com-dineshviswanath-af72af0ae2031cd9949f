@@ -17,7 +17,7 @@ To check whether, python has been installed successfully. try the following comm
 Above step ensure that Python 3.5 has been installed successfully.
 
 This is the high level outline of this post:
-Mas OS X -> Python 3.5 -> Virtaulenv -> 
+Mas OS X -> Python 3.5 -> Virtaulenv -> Flask --> app.py(first Hello world )
 
 
 Installing virtaulenv: (Step 1 of 
@@ -30,17 +30,14 @@ Why use virtualenv?
     13.1.2
 
 Now lets create the first flask app
-
-   mkdir ~/projects
-   cd ~/projets
+    mkdir ~/projects
+    cd ~/projets
 
 Now we will create a ```virtualenv```. 
+    ```virtualenv hello_flask```
+    ```cd hello_flask```
 
-   virtualenv hello_flask
-   cd hello_flask
-
-If you list the contents of the hello_flask directory, you will see that it has created several sub-directories, including a bin folder (Scripts on Windows) that contains copies of both Python and pip. The next step is to activate your new virtualenv.
-       source bin/activate
+If you list the contents of the hello_flask directory, you will see that it has created several sub-directories, including a bin folder (Scripts on Windows) that contains copies of both Python and pip. The next step is to activate your new virtualenv.			    ```source bin/activate```
 
 Installing Flask in your virtaulenv
 

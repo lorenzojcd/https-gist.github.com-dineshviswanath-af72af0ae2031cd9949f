@@ -24,11 +24,11 @@ Installing virtaulenv: (Step 1 of
 Why use virtualenv?
 1. Having different version of libraries for different projects
 2. Solves the elevated privillege issue as virtualenv allows you to install with user permission
-
+```bash
     sudo pip3 install virtualenv
     virtualenv --version
     13.1.2
-
+```  
 Now lets create the first flask app
     mkdir ~/project
     cd ~/projets

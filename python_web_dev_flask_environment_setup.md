@@ -2,6 +2,7 @@
 #Starting Python Web development in Mac OS X#
 
 *Objective:* Getting started with Python Development
+
 *Operating System:* Mac OS X
 *Python version installed:* 3.5 (5th December)
 

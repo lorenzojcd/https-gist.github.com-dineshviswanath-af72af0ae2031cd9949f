@@ -47,7 +47,7 @@ Installing Flask in your virtaulenv
 Hello, Flask
 
 Create a new file called app.py
-
+```python
 		from flask import Flask
 		
 		app = Flask(__name__)
@@ -59,7 +59,7 @@ Create a new file called app.py
 		if __name__ == '__main__':
 		    app.run(debug=True)
 
-
+````
 Open the web browser with ```http://localhost:5000```
 
 

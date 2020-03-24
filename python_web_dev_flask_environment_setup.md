@@ -54,16 +54,16 @@ Hello, Flask
 
 Create a new file called app.py
 ```python
-		from flask import Flask
-		
-		app = Flask(__name__)
-		
-		@app.route('/')
-		def index():
-		    return 'Hello, Flask!'
-		
-		if __name__ == '__main__':
-		    app.run(debug=True)
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+		return 'Hello, Flask!'
+
+if __name__ == '__main__':
+	app.run(debug=True)
 
 ````
 Open the web browser with ```http://localhost:5000```

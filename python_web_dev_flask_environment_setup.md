@@ -31,8 +31,8 @@ Why use virtualenv?
 ```  
 Now lets create the first flask app
 ```shell
-mkdir ~/project
-    cd ~/projets
+mkdir ~/projects
+    cd ~/projects
 ```
 
 Now we will create a virtualenv
